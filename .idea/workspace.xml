@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a09d08-2518-4f40-bded-43424dfbc3da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingPlatform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingPlatform/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingPlatform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingPlatform/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -87,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sqlite3" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="TestingPlatform" type="Python.DjangoServer" factoryName="Django server">
@@ -126,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641786491770</updated>
       <workItem from="1641786505096" duration="9411000" />
-      <workItem from="1641809105959" duration="4328000" />
+      <workItem from="1641809105959" duration="9844000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm">
       <created>1641794165624</created>
@@ -142,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641804137971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实现注册接口">
+      <created>1641813697383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641813697383</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pycharm" />
     <MESSAGE value="创建序列化器" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建序列化器" />
+    <MESSAGE value="实现注册接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现注册接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#SQL_Dialects" timestamp="1641809375963">
@@ -166,54 +169,54 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2615" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641809334454" />
-    <state x="2480" y="113" key="CommitChangelistDialog2" timestamp="1641804136596">
+    <state x="2480" y="113" key="CommitChangelistDialog2" timestamp="1641813695608">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2480" y="113" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641804136596" />
+    <state x="2480" y="113" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641813695608" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1641809579774">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641809579774" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1641819851082">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819851082" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1641819851082">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1641810761224">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819851082" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1641819851082">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761224" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819851082" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1641819851082">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819851082" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1641819857340">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819857340" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1641819857340">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819857340" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1641819857340">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1641810761225">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819857340" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1641819857340">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641810761225" />
-    <state x="2381" y="162" key="SettingsEditor" timestamp="1641809201376">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641819857340" />
+    <state x="2381" y="162" key="SettingsEditor" timestamp="1641817619039">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="162" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641809201376" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641804142729">
+    <state x="2381" y="162" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641817619039" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641813701037">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641804142729" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641813701037" />
     <state x="2460" y="175" key="com.intellij.database.dbimport.ImportDialog" timestamp="1641808607064">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -228,6 +231,15 @@
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641786621733" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyApp/views.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
         <watch expression="response" />
