@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8a09d08-2518-4f40-bded-43424dfbc3da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingPlatform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingPlatform/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingPlatform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingPlatform/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +112,7 @@
       <updated>1641786491770</updated>
       <workItem from="1641786505096" duration="9411000" />
       <workItem from="1641809105959" duration="9844000" />
-      <workItem from="1641864894317" duration="34992000" />
+      <workItem from="1641864894317" duration="36328000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm">
       <created>1641794165624</created>
@@ -147,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641882671534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="重写序列化器crate方法；改变登录校验方式">
+      <created>1641982783279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641982783279</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +160,8 @@
     <MESSAGE value="创建序列化器" />
     <MESSAGE value="实现注册接口" />
     <MESSAGE value="登录接口进行明文密码校验" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录接口进行明文密码校验" />
+    <MESSAGE value="重写序列化器crate方法；改变登录校验方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="重写序列化器crate方法；改变登录校验方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#SQL_Dialects" timestamp="1641809375963">
@@ -173,10 +176,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2615" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641809334454" />
-    <state x="2480" y="113" key="CommitChangelistDialog2" timestamp="1641882669668">
+    <state x="2480" y="113" key="CommitChangelistDialog2" timestamp="1641982781571">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2480" y="113" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641882669668" />
+    <state x="2480" y="113" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641982781571" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1641809579774">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -217,10 +220,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641897253021" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641882673951">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641982789969">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641882673951" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641982789969" />
     <state x="2460" y="175" key="com.intellij.database.dbimport.ImportDialog" timestamp="1641808607064">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
