@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'User_App.apps.MyappConfig',
-    'rest_framework'
-    'Api_App'
+    'User_App.apps.User_AppConfig',
+    'rest_framework',
+    'Api_App',
 ]
 
 MIDDLEWARE = [
@@ -109,7 +109,7 @@ REST_FRAMEWORK = {
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
-        "rest_framework.schemas.coreapi.AutoSchema",
+        # "rest_framework.schemas.coreapi.AutoSchema",
     ),
 }
 
