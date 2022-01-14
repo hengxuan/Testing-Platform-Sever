@@ -19,6 +19,12 @@ class Api_action(APIView):
         elif method == "put":
             res = requests.put(url=url,data=param,header=header)
             return Response(res)
-        else:
+        elif method == "head":
+            res = requests.head(url=url,data=param,header=header)
+            return Response(res)
+        elif method == "options":
+            res = requests.options(url=url,data=param,header=header)
+            return Response(res)
+        elif method == "delete":
             res = requests.delete(url=url,header=header,data=param)
             return Response(res)
