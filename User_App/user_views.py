@@ -3,7 +3,7 @@ import hashlib
 from django.contrib import auth
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_jwt.settings import api_settings
-from User_App.serializers import *
+from User_App.user_serializers import *
 from django.contrib.auth.models import User
 from rest_framework.views import APIView
 from rest_framework.response import Response

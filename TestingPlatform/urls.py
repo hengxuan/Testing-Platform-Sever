@@ -17,12 +17,14 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
 from User_App import user_urls
+from Api_App import api_urls
 from  rest_framework.documentation import include_docs_urls
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/',include(user_urls)),
+    path('api/',include(api_urls))
     # path('api-docs/', include_docs_urls(title='接口文档',description='这是一个接口文档的demo'))
 
 ]

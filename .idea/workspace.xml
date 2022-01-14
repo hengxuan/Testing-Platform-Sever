@@ -2,19 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a09d08-2518-4f40-bded-43424dfbc3da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Charles测试平台.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api_App/api_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api_App/api_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi-2.3.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/corejson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/jsondata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/codecs/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/transports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/transports/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/transports/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreapi/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema-0.0.4-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema-0.0.4-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema-0.0.4-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema-0.0.4-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema-0.0.4-py3.8.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema-0.0.4-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/encodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/encodings/corejson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/encodings/html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/encodings/jsonschema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/formats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/bootstrap3/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/bootstrap3/inputs/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/bootstrap3/inputs/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/bootstrap3/inputs/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/bootstrap3/inputs/select_multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/bootstrap3/inputs/textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/coreschema/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes-1.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes-1.2.0.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes-1.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes-1.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes-1.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes-1.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/itypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate-4.1.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate-4.1.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate-4.1.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate-4.1.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate-4.1.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate-4.1.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate/orderedset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/separation/Lib/site-packages/uritemplate/variable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingPlatform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingPlatform/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestingPlatform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingPlatform/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User_App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/user_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User_App/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/user_serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User_App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/User_App/user_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +135,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23UR51aigochCgD7eOcaCLaHI5F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -124,7 +190,7 @@
       <updated>1641786491770</updated>
       <workItem from="1641786505096" duration="9411000" />
       <workItem from="1641809105959" duration="9844000" />
-      <workItem from="1641864894317" duration="47935000" />
+      <workItem from="1641864894317" duration="51175000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm">
       <created>1641794165624</created>
@@ -168,20 +234,29 @@
       <option name="project" value="LOCAL" />
       <updated>1642039464963</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成第一阶段用户管理系统">
+      <created>1642066937676</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642066937676</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="pycharm" />
     <MESSAGE value="创建序列化器" />
     <MESSAGE value="实现注册接口" />
     <MESSAGE value="登录接口进行明文密码校验" />
     <MESSAGE value="重写序列化器crate方法；改变登录校验方式" />
     <MESSAGE value="增加平台设计图" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加平台设计图" />
+    <MESSAGE value="完成第一阶段用户管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成第一阶段用户管理系统" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#SQL_Dialects" timestamp="1641809375963">
@@ -196,10 +271,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2615" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642054414614" />
-    <state x="2480" y="113" key="CommitChangelistDialog2" timestamp="1642039463703">
+    <state x="2480" y="113" key="CommitChangelistDialog2" timestamp="1642066935360">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2480" y="113" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642039463703" />
+    <state x="2480" y="113" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642066935360" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1641809579774">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -240,10 +315,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642065767444" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1642039467000">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1642066941166">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642039467000" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642066941166" />
     <state x="2460" y="175" key="com.intellij.database.dbimport.ImportDialog" timestamp="1641808607064">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
